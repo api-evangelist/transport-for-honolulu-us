@@ -1,0 +1,32 @@
+aid: transport-for-honolulu-us
+name: Transport for Honolulu, US
+description: "Honolulu Transportation Information"
+url: http://hea.thebus.org/api_info.asp
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Transportation"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Transportation
+  - Public APIs
+apis:
+  - name: Transport for Honolulu, US
+    description: "Honolulu Transportation Information"
+    humanURL: http://hea.thebus.org/api_info.asp
+    baseURL: http://hea.thebus.org/api_info.asp
+    tags:
+      - Transportation
+    properties:
+      - type: Documentation
+        url: http://hea.thebus.org/api_info.asp
+common:
+  - type: Website
+    url: http://hea.thebus.org/api_info.asp
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
